@@ -1,0 +1,7 @@
+1. Create Project Phase1Projec
+2. Add all the driver files for Chrome and FF
+3. Add all the selenium jar files
+4. Create the packager
+5. Create AmazonSearch.java class
+6. Open amazon.in
+7. Search iphone12 and get all the product names and their price

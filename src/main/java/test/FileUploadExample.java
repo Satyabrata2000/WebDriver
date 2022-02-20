@@ -18,7 +18,7 @@ public class FileUploadExample {
         driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
 
         WebElement FileUpload = driver.findElement(By.xpath("//input[@name='uploadfile_0']"));
-        FileUpload.sendKeys("C:\\bitBucket");
+        FileUpload.sendKeys("C:\\WebDriverProject\\bitBucket.txt");
         WebElement TnC = driver.findElement(By.id("terms"));
         TnC.click();
         WebElement Submit = driver.findElement(By.id("submitbutton"));
